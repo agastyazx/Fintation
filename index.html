@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitnation - Unleash Your Inner Athlete</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-black text-white">
+    <!-- Navbar -->
+    <header class="flex flex-wrap justify-between items-center p-6 bg-black">
+        <div class="text-2xl font-bold text-lime-400">Fitnation</div>
+        <nav class="w-full md:w-auto space-y-2 md:space-y-0 md:space-x-6 mt-4 md:mt-0 text-center md:text-left">
+            <a href="#services" class="block md:inline hover:text-lime-400 transition duration-300">Services</a>
+            <a href="#facility" class="block md:inline hover:text-lime-400 transition duration-300">Facility</a>
+            <a href="#merchandise" class="block md:inline hover:text-lime-400 transition duration-300">Merchandise</a>
+            <a href="#join"
+                class="block md:inline bg-lime-400 text-black px-4 py-2 rounded transition transform duration-300 hover:scale-105">JOIN
+                NOW</a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="text-center py-20 bg-cover bg-center px-4"
+        style="background-image: url('https://images.unsplash.com/photo-1740895307943-7878df384db1?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGd5bSUyMHBpY3R1cmV8ZW58MHx8MHx8fDA%3D');">
+        <h1 class="text-4xl md:text-6xl font-bold">Unleash Your Inner Athlete</h1>
+        <p class="mt-4 max-w-xl mx-auto">We are dedicated to helping you transform your body and mind through the power
+            of fitness.</p>
+        <div class="mt-6 flex flex-col md:flex-row justify-center gap-4">
+            <a href="#join"
+                class="bg-lime-400 text-black px-6 py-3 rounded font-bold transition transform duration-300 hover:scale-105">JOIN
+                NOW - $49/month</a>
+            <a href="#join"
+                class="border border-white px-6 py-3 rounded transition transform duration-300 hover:scale-105">JOIN
+                FREE TRIAL</a>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-20 px-4 md:px-6 bg-black">
+        <h2 class="text-3xl font-bold mb-8 text-center">Transform Your Fitness Journey</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+            <div class=" gym bg-gray-900 p-6 rounded transition transform duration-300 hover:scale-105">GYM</div>
+            <div class="zumba bg-gray-900 p-6 rounded transition transform duration-300 hover:scale-105">ZUMBA</div>
+            <div class="yoga bg-gray-900 p-6 rounded transition transform duration-300 hover:scale-105">YOGA</div>
+            <div class="martial bg-gray-900 p-6 rounded transition transform duration-300 hover:scale-105">MARTIAL ARTS
+            </div>
+        </div>
+    </section>
+
+    <!-- Facility -->
+    <section id="facility" class="py-20 px-4 md:px-6 bg-gray-900">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+            <img src="https://images.unsplash.com/photo-1740895318584-8832a5dd73ae?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z3ltbCUyMGR1bWJsZXMlMjBpbiUyMGJsYWNrJTIwZnJhbWV8ZW58MHx8MHx8fDA%3D"
+                alt="Gym" class="rounded-xl transition transform duration-300 hover:scale-105 w-full" />
+            <div class="transition transform duration-300 hover:scale-105">
+                <h3 class="text-3xl font-bold mb-4">Comfortable Gym</h3>
+                <p>Our facilities provide the perfect setting to help you reach your fitness goals.</p>
+                <p class="mt-4">Location: 1234 Fitness Avenue, London, CA 90001</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Merchandise -->
+    <section id="merchandise" class="py-20 px-4 md:px-6 bg-black">
+        <h2 class="text-3xl font-bold mb-8 text-center">Get Fit in Style with FitNation Merchandise</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-center">
+            <div class="transition transform duration-300 hover:scale-105">
+                <img src="https://images.unsplash.com/photo-1704018731170-f30899f60917?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGd5bWwlMjBib3RlZWwlMjAlMjBpbiUyMGJsYWNrJTIwZnJhbWV8ZW58MHx8MHx8fDA%3D"
+                    alt="Water Bottle" class="mx-auto mb-4" />
+                <p>Water Bottles</p>
+            </div>
+            <div class="transition transform duration-300 hover:scale-105">
+                <img src="https://images.unsplash.com/photo-1585501954260-372cec60d355?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGd5bSUyMGNhcnJ5JTIwYmFnJTIwaW4lMjBibGFjayUyMGZyYW1lfGVufDB8fDB8fHww"
+                    alt="Gym Bag" class="mx-auto mb-4" />
+                <p>Gym Bags</p>
+            </div>
+            <div class="transition transform duration-300 hover:scale-105">
+                <img src="https://images.unsplash.com/photo-1499971442178-8c10fdf5f6ac?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z3ltJTIwamFja2V0cyUyMCUyMGluJTIwYmxhY2slMjBmcmFtZXxlbnwwfHwwfHx8MA%3D%3D"
+                    alt="Gym Jacket" class="mx-auto mb-4" />
+                <p>Gym Jackets</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Section -->
+    <section id="join" class="py-20 text-center bg-gray-900 px-4">
+        <h2 class="text-3xl font-bold mb-6">Let's Join Membership</h2>
+        <div class="flex flex-col md:flex-row justify-center gap-4">
+            <a href="#"
+                class="bg-lime-400 text-black px-6 py-3 rounded font-bold transition transform duration-300 hover:scale-105">JOIN
+                NOW</a>
+            <a href="#"
+                class="border border-white px-6 py-3 rounded transition transform duration-300 hover:scale-105">JOIN
+                FREE TRIAL</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-center text-sm py-6 px-4">
+        <div class="text-lime-400 font-bold mb-2"> Web designer Agastya Shukla</div>
+        <p class="text-gray-500">&copy; 2025 Fitnation. All rights reserved.</p>
+        <nav class="space-x-4 mt-2">
+            <a href="#services" class="hover:underline transition duration-300">Services</a>
+            <a href="#facility" class="hover:underline transition duration-300">Facility</a>
+            <a href="#merchandise" class="hover:underline transition duration-300">Merchandise</a>
+            <a href="#" class="hover:underline transition duration-300">Privacy Policy</a>
+        </nav>
+    </footer>
+</body>
+
+</html>
